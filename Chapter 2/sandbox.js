@@ -51,3 +51,7 @@ console.log(result3);
 console.log("Substr");
 let result4 = emailTwo.substring(0,4);
 console.log(result4);
+
+console.log("Replace");
+let strreplace = emailTwo.replace('e','p');
+console.log(strreplace);
