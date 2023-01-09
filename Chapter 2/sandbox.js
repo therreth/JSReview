@@ -55,3 +55,19 @@ console.log(result4);
 console.log("Replace");
 let strreplace = emailTwo.replace('e','p');
 console.log(strreplace);
+
+
+
+///Template strings
+
+const title = "The Omnicron";
+const author = "John Higgings";
+const likes = 30;
+
+
+///concat
+let rrr = "The blog titled " + title + " By " + author + " has " + likes + " likes";
+
+///Template string way
+let tempa = `The blog titled ${title} by ${author} has ${likes} likes`;
+
