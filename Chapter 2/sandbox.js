@@ -36,3 +36,18 @@ console.log(fullname.length);
 console.log(fullname.toUpperCase());
 let result = fullname.toLowerCase();
 console.log(result, fullname);
+
+let index = email.indexOf("p");
+console.log(index);
+
+//Commong string methoids
+
+let emailTwo = "hellothere@gmail.com";
+
+let result2 = emailTwo.lastIndexOf("e");
+console.log("Slice");
+let result3 = emailTwo.slice(0,4);
+console.log(result3);
+console.log("Substr");
+let result4 = emailTwo.substring(0,4);
+console.log(result4);
