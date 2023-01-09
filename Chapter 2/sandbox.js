@@ -71,3 +71,11 @@ let rrr = "The blog titled " + title + " By " + author + " has " + likes + " lik
 ///Template string way
 let tempa = `The blog titled ${title} by ${author} has ${likes} likes`;
 
+//Creating html templates
+
+let html = `
+    <h2>${title}</h2>
+    <p>By: ${author} </p>
+    <span>Likes: ${likes}</span>
+
+`;
