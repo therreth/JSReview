@@ -43,3 +43,18 @@ const bill = function(products, tax){
     return total;
 
 }
+
+
+const namee = 'billie';
+
+//functions
+
+const greetThree = () => 'hello';
+
+let resultOne = greetThree();
+console.log(resultOne);
+
+//Methods
+
+let scream = namee.toUpperCase();
+console.log(namee);
