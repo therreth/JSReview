@@ -58,3 +58,31 @@ console.log(resultOne);
 
 let scream = namee.toUpperCase();
 console.log(namee);
+
+//Callbacks and foreach
+const myFunc = (callBackFunc) => {
+    let value = 50;
+
+    callBackFunc(value);
+
+
+}
+myFunc(function(value){
+    console.log(value);
+});
+
+let people = ["john","pink","bob"];
+const addToLi = (person, index) => {
+    console.log(`<li> Name: ${person} Number: ${index}</li>`);
+
+}
+people.forEach(addToLi);
+//
+let html = ``;
+const ul = document.querySelector('.people');
+console.log("here");
+people.forEach(function(person,index){
+    html += `<li> Name: ${person} Number: ${index}</li>`;
+});
+
+ul.innerHTML = html;
