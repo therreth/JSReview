@@ -22,9 +22,24 @@ speakName();
 speakName('John','Cake');
 
 
-const calcArea = radius => {
-    return 3.14 * radius ** 2;
-    
+const calcArea = function(radius) {
+    return 3.14 * radius ** 2; 
 }
 
-let area = calcArea(5);
+const calcAreaTwo = radius => {
+    return 3.14 * radius ** 2;   
+}
+
+const calcAreaThree = radius => 3.14 * radius ** 2;
+
+const greetTwo = () =>  'Hello World';
+
+const bill = function(products, tax){
+    let total =0;
+     products.map(num => num + num* tax).forEach(element => {
+        total += element;
+    });
+
+    return total;
+
+}
