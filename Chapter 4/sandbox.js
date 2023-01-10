@@ -81,7 +81,7 @@ people.forEach(addToLi);
 let html = ``;
 const ul = document.querySelector('.people');
 console.log("here");
-people.forEach(function(person,index){
+people.forEach((person,index) => {
     html += `<li> Name: ${person} Number: ${index}</li>`;
 });
 
