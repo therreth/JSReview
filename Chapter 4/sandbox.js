@@ -36,7 +36,7 @@ const greetTwo = () =>  'Hello World';
 
 const bill = function(products, tax){
     let total =0;
-     products.map(num => num + num* tax).forEach(element => {
+    products.map(num => num + num* tax).forEach(element => {
         total += element;
     });
 
