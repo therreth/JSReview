@@ -52,3 +52,20 @@ mssg.setAttribute('style', 'color: green;');
 const title = document.querySelector('h1');
 title.style.color = 'pink';
 title.style.margin = '50px';
+
+//changes classes from js
+
+const contentTest = document.querySelector('p');
+content.classList.add('error');
+content.classList.remove('error');
+content.classList.add('success');
+
+const ptags = document.querySelectorAll('p');
+
+ptags.forEach(p => {
+    if(p.textContent.includes('error')){
+        p.classList.add('error');
+    }
+});
+
+title.classList.toggle('success');
