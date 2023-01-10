@@ -1,5 +1,5 @@
 // object literals
-const blogs = ;
+
 
 
 let user = {
@@ -42,3 +42,12 @@ console.log(typeof user);
 user.login();
 user.logout();
 user.logblogs();
+
+
+//Math Object
+
+const area = 7.7;
+
+console.log(Math.round(area));
+console.log(Math.floor(area));
+console.log(Math.ceil(area));
