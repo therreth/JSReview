@@ -57,3 +57,19 @@ const random = Math.random();
 
 console.log(random);
 console.log(Math.round(random * 100));
+
+
+//prim values these dont change with eathother
+let scoreOne = 50;
+let scoreTwo = scoreOne;
+
+scoreOne = 100;
+console.log(scoreOne,scoreTwo);
+
+//reference values these will always be the same
+userOne = {name:'ryu', age: 33};
+userTwo = userOne;
+
+userOne.age = 11;
+userTwo.name = "Hollo";
+console.log(userOne,userTwo);
